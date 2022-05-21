@@ -1,4 +1,7 @@
 # Binovate
+
+### Data can be found here: [Google drive link](https://drive.google.com/drive/folders/1lu9WDTwy___lzwle7PZA-BZRq1bWzPQl?usp=sharing). On the current repository I couldn't upload `file1.xls` and `file2.xls` because they have more than `25mb`. But, when you will run the code in Colab, you will be able to see the files created there and to download them.  
+
 Task description: 
 The goal of the assessment is to write a few scripts that will diff two large `XLS files`. We will need to write a script to generate two files:
 1. <b>file1.xls</b> - generate a file with 500k-1M rows that has 8 columns (id - this is a string, first_name, last_name, address, city, country, number_of_doctors, GDP). The values are random values (they do not have to be actual addresses and gdps).
