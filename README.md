@@ -40,3 +40,17 @@ Then, I take all the `keys` from dictionary 2, which is file 2. I check if this 
   - I write the whole row (from dictionary 2) with `id` and `columns` in `diff_added`;
 
 By the end, I take all the remaining keys and values from dictionary 1 and I write the whole rows (from dictionary 1) with `id` and `columns` in `diff_removed`.
+
+We choose dictionary for our data, because dictionaries have constant time complexity, O(1) while lists have linear time complexity, O(n). 
+
+We use the dictionary to search values in it.
+
+The structure of the data in the dictionaries is:
+
+{
+
+   1: "aaaaa#aaaaa#aaaaa#aaaaa#aaaaa#aaaaa#aaaaa",
+   
+   2: "aaaaa#aaaaa#aaaaa#aaaaa#aaaaa#aaaaa#aaaaa"
+   
+}, where the `key` is the `id` and the `value` is created by concatenating all the columns together with a hashtag between them. 
