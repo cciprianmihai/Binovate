@@ -44,7 +44,7 @@ Then, I take all the `keys` from dictionary 2, which is file 2. I check if this 
 
 By the end, I take all the remaining keys and values from dictionary 1 and I write the whole rows (from dictionary 1) with `id` and `columns` in `diff_removed`.
 
-We choose dictionary for our data, because dictionaries have constant time complexity, O(1) while lists have linear time complexity, O(n). 
+We choose dictionary for our data, because dictionaries have constant time complexity, `O(1)` while lists have linear time complexity, `O(n)`. 
 
 We use the dictionary to search values in it.
 
@@ -57,3 +57,5 @@ The structure of the data in the dictionaries is:
    2: "aaaaa#aaaaa#aaaaa#aaaaa#aaaaa#aaaaa#aaaaa"
    
 }, where the `key` is the `id` and the `value` is created by concatenating all the columns together with a hashtag between them. 
+
+## One last note: the solution proposed is not shuffling the date in file 2, comparing to file 1. But, because we use dictionaries for both files, when we search the `keys` and we match them, the solution works similar and the access time is still `O(1)`. So, the solution is still eficient and it takes in consideration that files 1 and 2 can have the data shuffled. 
