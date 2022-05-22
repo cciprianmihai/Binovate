@@ -1,6 +1,6 @@
 # Binovate
 
-### Data can be found here: [Google drive link](https://drive.google.com/drive/folders/1lu9WDTwy___lzwle7PZA-BZRq1bWzPQl?usp=sharing). On the current repository I couldn't upload `file1.xls` and `file2.xls` because they have more than `25mb`. But, when you will run the code in Colab, you will be able to see the files created there and to download them.  
+### Data can be found here: [Google drive link](https://drive.google.com/drive/folders/1lu9WDTwy___lzwle7PZA-BZRq1bWzPQl?usp=sharing). On the current repository I couldn't upload `file1.xls` and `file2.xls` because they have more than `25mb`. But, when you will run the code in Colab, you will be able to see the files created there and you can download them. Or, check my results from the [Google drive link](https://drive.google.com/drive/folders/1lu9WDTwy___lzwle7PZA-BZRq1bWzPQl?usp=sharing).
 
 Task description: 
 The goal of the assessment is to write a few scripts that will diff two large `XLS files`. We will need to write a script to generate two files:
